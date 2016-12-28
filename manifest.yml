@@ -1,0 +1,10 @@
+---
+applications:
+- path: target/simple-spark-0.0.1-SNAPSHOT.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: simple-http-spark-test-java7
+  host: simple-http-spark-test-java7
+  disk_quota: 512M
+  buildpack: liberty-for-java
